@@ -559,7 +559,7 @@
       ```javascript
       function Person(name) {
         this.name = name;
-        this.age = 21;
+        this.age = 21 ;
       }
       var object = new Person("Sudheer");
       ```
@@ -710,6 +710,19 @@
 
    ```javascript
    JSON.parse(text);
+   <script>//object json 
+   const myObj = {name:"John", age:30, city:"New York"};
+   document.getElementById("demo").innerHTML = myObj.city;
+   </script>
+   //array json
+   const txt = JSON.parse('{"name":"John", "age":30, "city":"New York"}')
+    document.getElementById("demo").innerHTML = txt.name + ", " + txt.age;
+
+    <!-- exceptions -->
+    const text = '{"name":"John", "birth":"1986-12-14", "city":"New York"}';
+   const obj = JSON.parse(text);
+   obj.birth = new Date(obj.birth);
+    document.getElementById("demo").innerHTML = obj.name + ", " + obj.birth; 
    ```
 
    **Stringification:** Converting a native object to a string so that it can be transmitted across the network
