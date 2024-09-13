@@ -58,3 +58,14 @@ header{
     width: 90vw;
     height: 60vh;
 }
+.Sales-table{
+    width: 90vw;
+    margin: auto;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 12px;
+}
+
+.Sales-table-head{
+    background-color: #806BDC;
+}
