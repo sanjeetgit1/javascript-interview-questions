@@ -69,3 +69,19 @@ header{
 .Sales-table-head{
     background-color: #806BDC;
 }
+.Information{
+    width: 92vw;
+    margin: 20px;
+    font-size: 11px;
+    color: #878787;
+    list-style-position:inside;
+    
+    }
+    footer{
+      height: 50px;
+      padding-top: 28px;
+      background-color: black;
+      color: white;
+      text-align: center;
+        
+    }
